@@ -1,0 +1,29 @@
+# Define Message Protocol
+Protocol.Default=P2P
+# Define Message Address
+UDP.IP=192.168.2.255
+UDP.Port= 9999
+# Define Protocol Receiving
+P2P.protocol=http
+P2P.IP=DHCP
+P2P.Port=5000
+P2P.Cycle=0.3
+P2P.Fanout=2
+# Define MQTT Parameters
+MQTT.Server=192.168.2.101
+MQTT.Port=1883
+MQTT.tls=disable
+MQTT.keepalive=20
+MQTT.Subscribe=warwickP2P
+MQTT.username=1806002NB01
+MQTT.password=1234
+# Define System Variables
+Idle.Interval=20
+Model.File=/opt/warwick/ModelFile
+Project.File=/opt/warwick/Project
+Socket.Timeout=4
+# Define Log File Location
+Sys.APLog=/var/log/P2PCnn.log
+Sys.EventLog=/opt/warwick/Log/Event.log
+Tmp.File=/opt/warwick/Tmp
+Max.Download=2

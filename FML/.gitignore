@@ -1,0 +1,11 @@
+*.gz
+*.tar.gz
+*.pyc
+.DS_Store
+*.swp
+*.pro
+*.zip
+*.pth
+__pycache__
+*.localModel
+DatasetFile

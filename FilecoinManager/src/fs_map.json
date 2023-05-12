@@ -1,0 +1,218 @@
+{
+  "rootFolderId": "qwerty123456",
+  "fileMap": {
+    "qwerty123456": {
+      "id": "qwerty123456",
+      "name": "test",
+      "isDir": true,
+      "childrenIds": [ "b6667221f24b", "002705459ca4"],
+      "childrenCount": 6
+    },
+    "b6667221f24b": {
+      "id": "b6667221f24b",
+      "name": "test1",
+      "isDir": true,
+      "modDate": "2021-06-27T13:38:08.776Z",
+      "childrenIds": ["8d6a608dbd08", "6b8711a21780", "4a2c1afcc755"],
+      "childrenCount": 3,
+      "parentId": "qwerty123456"
+    },
+    "8d6a608dbd08": {
+      "id": "8d6a608dbd08",
+      "name": "test1.txt",
+      "size": 0,
+      "modDate": "2021-06-27T13:38:08.776Z",
+      "parentId": "b6667221f24b"
+    },
+    "6b8711a21780": {
+      "id": "6b8711a21780",
+      "name": "test2.pdf",
+      "size": 0,
+      "modDate": "2021-06-27T13:35:40.786Z",
+      "parentId": "b6667221f24b"
+    },
+    "4a2c1afcc755": {
+      "id": "4a2c1afcc755",
+      "name": "test3.py",
+      "size": 0,
+      "modDate": "2021-06-27T13:31:15.978Z",
+      "parentId": "b6667221f24b"
+    },
+    "002705459ca4": {
+      "id": "002705459ca4",
+      "name": "empty",
+      "isDir": true,
+      "modDate": "2021-07-01T22:27:23.864Z",
+      "childrenIds": [],
+      "childrenCount": 0,
+      "parentId": "qwerty123456"
+    },
+    "a9fd7c8a04db": {
+      "id": "a9fd7c8a04db",
+      "name": "15 nested folders",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:07.253Z",
+      "childrenIds": ["e3bcade90390"],
+      "childrenCount": 1,
+      "parentId": "qwerty123456"
+    },
+    "e3bcade90390": {
+      "id": "e3bcade90390",
+      "name": "Level 1",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:10.805Z",
+      "parentId": "a9fd7c8a04db",
+      "childrenIds": ["99a4ce856444"],
+      "childrenCount": 1
+    },
+    "99a4ce856444": {
+      "id": "99a4ce856444",
+      "name": "Level 2",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:14.109Z",
+      "parentId": "e3bcade90390",
+      "childrenIds": ["7263c24adb31"],
+      "childrenCount": 1
+    },
+    "7263c24adb31": {
+      "id": "7263c24adb31",
+      "name": "Level 3",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:17.225Z",
+      "parentId": "99a4ce856444",
+      "childrenIds": ["ca1a1fd357a3"],
+      "childrenCount": 1
+    },
+    "ca1a1fd357a3": {
+      "id": "ca1a1fd357a3",
+      "name": "Level 4",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:20.329Z",
+      "parentId": "7263c24adb31",
+      "childrenIds": ["f5962105e6bf"],
+      "childrenCount": 1
+    },
+    "f5962105e6bf": {
+      "id": "f5962105e6bf",
+      "name": "Level 5",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:24.209Z",
+      "parentId": "ca1a1fd357a3",
+      "childrenIds": ["eb99622b6bf7"],
+      "childrenCount": 1
+    },
+    "eb99622b6bf7": {
+      "id": "eb99622b6bf7",
+      "name": "Level 6",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:28.661Z",
+      "parentId": "f5962105e6bf",
+      "childrenIds": ["eb6ef39dcf7e"],
+      "childrenCount": 1
+    },
+    "eb6ef39dcf7e": {
+      "id": "eb6ef39dcf7e",
+      "name": "Level 7",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:33.273Z",
+      "parentId": "eb99622b6bf7",
+      "childrenIds": ["a09fd90e8a3e"],
+      "childrenCount": 1
+    },
+    "a09fd90e8a3e": {
+      "id": "a09fd90e8a3e",
+      "name": "Level 8",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:36.993Z",
+      "parentId": "eb6ef39dcf7e",
+      "childrenIds": ["8e7120860c41"],
+      "childrenCount": 1
+    },
+    "8e7120860c41": {
+      "id": "8e7120860c41",
+      "name": "Level 9",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:40.877Z",
+      "parentId": "a09fd90e8a3e",
+      "childrenIds": ["3dc12662a950"],
+      "childrenCount": 1
+    },
+    "3dc12662a950": {
+      "id": "3dc12662a950",
+      "name": "Level 10",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:44.009Z",
+      "parentId": "8e7120860c41",
+      "childrenIds": ["1062ab9dec65"],
+      "childrenCount": 1
+    },
+    "1062ab9dec65": {
+      "id": "1062ab9dec65",
+      "name": "Level 11",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:46.497Z",
+      "parentId": "3dc12662a950",
+      "childrenIds": ["ca09fe075bf4"],
+      "childrenCount": 1
+    },
+    "ca09fe075bf4": {
+      "id": "ca09fe075bf4",
+      "name": "Level 12",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:49.597Z",
+      "parentId": "1062ab9dec65",
+      "childrenIds": ["29fda22251ec"],
+      "childrenCount": 1
+    },
+    "29fda22251ec": {
+      "id": "29fda22251ec",
+      "name": "Level 13",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:52.861Z",
+      "parentId": "ca09fe075bf4",
+      "childrenIds": ["8270c2231d78"],
+      "childrenCount": 1
+    },
+    "8270c2231d78": {
+      "id": "8270c2231d78",
+      "name": "Level 14",
+      "isDir": true,
+      "modDate": "2020-06-27T13:32:56.657Z",
+      "parentId": "29fda22251ec",
+      "childrenIds": ["e3c798d6abf7"],
+      "childrenCount": 1
+    },
+    "e3c798d6abf7": {
+      "id": "e3c798d6abf7",
+      "name": "Level 15",
+      "isDir": true,
+      "modDate": "2020-06-27T13:34:35.083Z",
+      "parentId": "8270c2231d78",
+      "childrenIds": ["d2551145553d"],
+      "childrenCount": 1
+    },
+    "d2551145553d": {
+      "id": "d2551145553d",
+      "name": "Bigfoot Footage.avi",
+      "size": 3601921,
+      "modDate": "2020-06-27T13:34:35.083Z",
+      "parentId": "e3c798d6abf7"
+    },
+    "zFe": {
+      "id": "zFe",
+      "name": ".hidden.txt",
+      "isHidden": true,
+      "modDate": "1997-04-26T11:00:00.000Z",
+      "size": 42,
+      "parentId": "qwerty123456"
+    },
+    "zJr": {
+      "id": "zJr",
+      "name": "encrypted.zip",
+      "isEncrypted": true,
+      "modDate": "2020-10-24T19:10:17.659Z",
+      "size": 1337,
+      "parentId": "qwerty123456"
+    }
+  }
+}
