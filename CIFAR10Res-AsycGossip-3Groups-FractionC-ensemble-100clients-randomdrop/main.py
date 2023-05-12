@@ -9,11 +9,11 @@ from utils import client_train, globle_agg, test_ensemble, test
 torch.cuda.get_device_name(0)
 
 # %%
-import random
-
-list1 = [[1, 2], [3, 4, 5], [6, 2], [7, 2], [4, 2]]
-list_choice = random.sample(list1, 3)
-print(list_choice)
+# import random
+#
+# list1 = [[1, 2], [3, 4, 5], [6, 2], [7, 2], [4, 2]]
+# list_choice = random.sample(list1, 3)
+# print(list_choice)
 # %%
 from torchvision import transforms
 from torchvision import datasets
@@ -76,6 +76,8 @@ elif data_set == 'cifar':
                                  train=False,
                                  download=True,
                                  transform=transform)
+else:
+    raise NotImplementedError
 
 
 def sampling_iid(dataset, num_clients):
@@ -181,8 +183,8 @@ if iid == 0:
     client_dataidx_dict = sampling_iid(train_data, num_clients)
 elif iid == 1:
     client_dataidx_dict = sampling_noniid(train_data, num_clients)
-elif iid == 'cifar_noniid':
-    client_dataidx_dict = cifar_noniid(train_data, num_clients)
+# elif iid == 'cifar_noniid':
+#     client_dataidx_dict = cifar_noniid(train_data, num_clients)
 # elif iid == 'cifar_noniid_aligned':
 #     client_dataidx_dict = cifar_noniid_aligned(train_data,num_clients)
 else:
